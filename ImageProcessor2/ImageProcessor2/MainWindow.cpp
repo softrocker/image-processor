@@ -143,8 +143,3 @@ void MainWindow::invertColors()
 	scene_->addPixmap(QPixmap::fromImage(image_));
 	//scene_->update();
 }
-
-//void doSomeWork(QImage& image)
-//{
-//	ImageAlgorithms::invertColors(image);
-//}
